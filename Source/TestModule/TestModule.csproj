@@ -10,6 +10,7 @@
     </Reference>
     <Reference Include="Rice.Module.Abstractions">
       <HintPath>..\..\Dependencies\Rice\Rice.Module\Rice.Module.Abstractions.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
 
