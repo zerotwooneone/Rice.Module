@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Rice.Module.Abstractions.Execution;
 
 namespace Rice.Module.Abstractions
 {
     public interface IModule
     {
-        string Signature { get; }
+        IExecutionResult Execute(IExecutionContext executionContext);
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Rice.Core
+﻿namespace Rice.Module
 {
     public class Class1
     {

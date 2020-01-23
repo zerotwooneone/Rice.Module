@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Rice.Module">
+      <HintPath>..\..\Dependencies\Rice\Rice.Module\Rice.Module.dll</HintPath>
+    </Reference>
+    <Reference Include="Rice.Module.Abstractions">
+      <HintPath>..\..\Dependencies\Rice\Rice.Module\Rice.Module.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
