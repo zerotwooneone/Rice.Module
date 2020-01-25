@@ -5,7 +5,10 @@ Remote code execution for .Net!
 git clone --recurse-submodules https://github.com/zerotwooneone/Rice.Module
 
 ## To Build (from Repo root, powershell)
-dotnet build .\Source\Rice.Module\Rice.Module.csproj --output .\Out
+* dotnet build .\Source\Rice.Module\Rice.Module.csproj --output .\Out
+  * builds all the libraries
+* dotnet build .\Source\TestModule\TestModule.csproj --output .\Out
+  * build just the test module
 
 ## Projects
 * Rice.Module - meant to be consumed by modules which are to be executed remotely
